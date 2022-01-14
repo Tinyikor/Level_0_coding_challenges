@@ -9,7 +9,7 @@ def common(string_1, string_2):
     for i in common_letters:
         if i not in letter:
             letter = letter + i
-    print ("Common letters: ", end="")
-    print (*letter, sep=",")
+    print("Common letters:", end="")
+    print(*letter, sep=" , ")
 
 common("house", "computers")
