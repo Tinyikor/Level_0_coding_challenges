@@ -3,7 +3,7 @@ def UniqueVowels(string):
     result =""
     for letter in string:
         letter = letter.lower()
-        if (letter in vowels) and (letter not in result):
+        if(letter in vowels) and (letter not in result):
             result += letter
     print("Vowels: ", end="")
     print(*result, sep=" , ")
