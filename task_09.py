@@ -6,6 +6,6 @@ def UniqueVowels(string):
         if(letter in vowels) and (letter not in result):
             result += letter
     print("Vowels: ", end="")
-    print(*result, sep=" , ")
+    print(*result, sep=", ")
 
 UniqueVowels("Umuzi")
